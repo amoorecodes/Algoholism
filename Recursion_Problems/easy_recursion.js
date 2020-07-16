@@ -26,3 +26,14 @@ function power(base, exp) {
 // console.log(power(2, 5));
 // console.log(power(2, 6));
 // console.log(power(2, 7));
+
+function factorial(num) {
+  if (num <= 1) return 1;
+  return num * factorial(num - 1);
+}
+
+console.log(factorial(1));
+console.log(factorial(2));
+console.log(factorial(3));
+console.log(factorial(4));
+console.log(factorial(5));
